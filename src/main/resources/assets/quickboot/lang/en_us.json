@@ -1,0 +1,23 @@
+{
+  "quickboot.screen.buildingTerrain.building": "Building Visible Chunks",
+  "quickboot.screen.buildingTerrain.preparing": "Preparing All Chunks",
+  "quickboot.buildingTerrain.starting": "Starting Session",
+  "quickboot.screen.buildingTerrain.template": "Completed / Goal",
+  "quickboot.screen.config": "Fastload Configuration",
+  "quickboot.button.debug": "Debug Mode",
+  "quickboot.button.debug.tooltip": "Should debugs be printed in the logs?",
+  "quickboot.button.instant_load": "Instant Load",
+  "quickboot.button.instant_load.tooltip": "Are you impatient? Do you hate loading screens? Just switch it on, load a world, and you will regret it. -_-",
+  "quickboot.button.local_render_chunk_radius": "Local Radius",
+  "quickboot.button.local_render_chunk_radius.tooltip": "Radius for how many chunks in a circle should render in Fastload's Building Terrain for Singleplayer.",
+  "quickboot.button.local_render_chunk_radius.min": "Disabled",
+  "quickboot.button.local_render_chunk_radius.max": "Wtf",
+  "quickboot.button.server_render_chunk_radius": "Server Radius",
+  "quickboot.button.server_render_chunk_radius.tooltip": "Radius for how many chunks in a circle should render in Fastload's Building Terrain for Servers.",
+  "quickboot.button.server_render_chunk_radius.min": "Disabled",
+  "quickboot.button.server_render_chunk_radius.max": "Wtf",
+  "quickboot.button.chunk_try_limit": "Chunk Try Limit",
+  "quickboot.button.chunk_try_limit.tooltip": "How many times would the same chunk count be allowed to be returned in a row before bailing on pre-rendering",
+  "quickboot.button.chunk_try_limit.min": "NASA PC",
+  "quickboot.button.chunk_try_limit.max": "Snail"
+}

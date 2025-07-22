@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mystic.quickboot.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "quickboot.refmap.json",
+  "mixins": [
+    "server.MinecraftServerMixin"
+  ],
+  "client": [
+    "client.ClientPacketListenerMixin",
+    "client.FrustumMixin",
+    "client.GameRendererMixin",
+    "client.LocalPlayerMixin",
+    "client.MinecraftMixin",
+    "client.ReceivingLevelScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

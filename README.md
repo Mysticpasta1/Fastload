@@ -2,7 +2,7 @@
 441 Chunk loading is essentially a generator for your world that loads 21^2 chunks (or 10 chunk-render-distance), Why does 10 turn into 21? 2 sides plus the one you are standing on, squared for 2 dimensions.
 
 # Short explanation:
-Fastload is a simple mod that reduces world loading time. This serves as an alternative to ksyxis and Forcecloseloadingscreen.
+Quick Boot is a fork of FastLoad which is a simple mod that reduces world loading time. This serves as an alternative to ksyxis and Forcecloseloadingscreen.
 
 # Required by:
 - Client
@@ -12,6 +12,7 @@ Fastload is a simple mod that reduces world loading time. This serves as an alte
 # Credits for mods that are integrated:
 - Ksyxis by VidTu (Incompatible)
 - Forcecloseloadingscreen by kennytv (Incompatible)
+- FastLoad by AbdElAziz (Incompatible)
 
 # Here are its features:
 - Reducing 21^2 chunks to 5^2
@@ -23,7 +24,7 @@ Fastload is a simple mod that reduces world loading time. This serves as an alte
 - Create New world: ~32 sec
 - Load World: ~5 sec
 - ]
-- Fastload: [
+- Quick Boot: [
 - Create New World: ~23 sec
 - Load World: ~3 sec
 - ]
@@ -33,8 +34,4 @@ Ksyxis cancels 441 world loading by essentially telling the game "Hey, we're don
 
 We do this in a better, safer way by simply dialing down the number of chunks required to load before 441 initialises. This is fairly self-explanatory! To make world loading faster, we integrated yet another 'unstable' mod, Forcecloseloadingscreen. Like ksyxis, it also issues a firm warning of instability. How did we improve this? Just by preventing the 'Pause Menu' activating when not focused on the window until the real renderer initialised. We also make it cancel only when the player spawns, to avoid issues where the player spawns in the wrong locations with incorrect playerdata. Thus, fixing the bugs that mods bring in too! There's your technical explanation!
 
-Modrinth: https://modrinth.com/mod/fastload
-
-Curseforge: https://www.curseforge.com/minecraft/mc-mods/fastload
-
-Discord: https://discord.gg/fMSnenNSXM
+Curseforge: https://www.curseforge.com/minecraft/mc-mods/quickboot
