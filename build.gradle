@@ -64,8 +64,7 @@ minecraft {
 }
 
 mixin {
-    add sourceSets.main, "fastload.refmap.json"
-
+    add sourceSets.main, "quickboot.refmap.json"
     config "quickboot.mixins.json"
 }
 
@@ -75,8 +74,8 @@ repositories {}
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    compileOnly 'org.spongepowered:mixin:0.8.5'
 }
 
 tasks.named('processResources', ProcessResources).configure {
