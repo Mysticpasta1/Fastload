@@ -109,5 +109,11 @@ tasks.named('jar', Jar).configure {
 }
 
 tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += [
+            "-AoutRefMapFile=${buildDir}/resources/main/quickboot.refmap.json"
+    ]
+}
+
+tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
